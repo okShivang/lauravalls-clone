@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Bai Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --primary-bg: #000000;
+  --secondary-bg: #111111;
+  --accent-orange-red: #FF4500;
+  --text-primary: #FFFFFF;
+  --text-secondary: #CCCCCC;
+  --blue-accent: #4169E1;
+  --green-accent: #32CD32;
+
+  --font-heading: 'Anybody', sans-serif;
+  --font-body: 'Bai Jamjuree', sans-serif;
+}
+
+@theme {
+  --color-primary-bg: #000000;
+  --color-secondary-bg: #111111;
+  --color-accent-orange-red: #FF4500;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #CCCCCC;
+  --color-blue-accent: #4169E1;
+  --color-green-accent: #32CD32;
+
+  --font-family-heading: 'Anybody', sans-serif;
+  --font-family-body: 'Bai Jamjuree', sans-serif;
+}
